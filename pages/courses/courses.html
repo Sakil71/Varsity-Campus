@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../varsity.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/67a2fbfa6c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@200;300;400;500;700&family=Yatra+One&display=swap"
+        rel="stylesheet">
+    <title>World University</title>
+</head>
+
+<body class="bg-black">
+    <header class="about-header min-h-[30vh] md:min-h-[50vh] lg:min-h-[50vh] bg-center bg-cover relative w-full"
+        style="background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../../images/background.jpg);">
+        <section>
+            <nav class="p-[3%] flex justify-between items-center">
+                <h1 class="text-2xl md:text-xl lg:text-xl"><i
+                        class="fa-solid fa-graduation-cap mr-3 text-3xl text-red-500"></i>World
+                    University</h1>
+
+                <div>
+                    <i id="showMenu" class="fa-solid fa-bars text-3xl font-bold lg:hidden md:hidden cursor-pointer"></i>
+
+                    <div id="menu" class="hidden font-bold md:block lg:block">
+
+                        <i id="hideMenu"
+                            class="fa-solid fa-xmark text-3xl absolute top-0 left-0 hidden cursor-pointer p-2 border"></i>
+
+                        <ul class="md:flex lg:flex gap-5 md:text-xs lg:text-xs">
+                            <li class="nav-list"><a href="../../varsity.html">HOME</a></li>
+                            <li class="nav-list"><a href="../about/about.html">ABOUT</a></li>
+                            <li class="nav-list"><a href="#">COURSE</a></li>
+                            <li class="nav-list"><a href="../blog/blog.html">BLOG</a></li>
+                            <li class="nav-list"><a href="../contact/contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Banner Text -->
+        </section>
+        <section class="w-10/12 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-center">
+            <h1 class="text-xl md:text-2xl lg:text-2xl font-medium">Our Courses</h1>
+        </section>
+    </header>
+    <main>
+        
+         <!-- Courses -->
+         <section class="w-10/12 mx-auto text-center">
+            <div class="pt-24 mb-8">
+                <h1 class="text-4xl">Courses We Offer</h1>
+                <p class="opacity-50 font-extralight ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                    excepturi!</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-20">
+                <div class="hover:bg-gray-800 transition duration-0 hover:duration-1000 p-2 rounded">
+                    <h1 class="text-xl font-semibold">Intermediate</h1>
+                    <p class="text-center font-extralight">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Reprehenderit eum ratione deserunt, qui
+                        repellendus recusandae similique maiores incidunt vitae quis.</p>
+                </div>
+                <div class="hover:bg-gray-800 transition duration-0 hover:duration-1000 p-2 rounded">
+                    <h1 class="text-xl font-semibold">Post-Graduate</h1>
+                    <p class="text-center font-extralight">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Reprehenderit eum ratione deserunt, qui
+                        repellendus recusandae similique maiores incidunt vitae quis</p>
+                </div>
+                <div class="hover:bg-gray-800 transition duration-0 hover:duration-1000 p-2 rounded">
+                    <h1 class="text-xl font-semibold">Graduate</h1>
+                    <p class="text-center font-extralight">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Reprehenderit eum ratione deserunt, qui
+                        repellendus recusandae similique maiores incidunt vitae quis</p>
+                </div>
+            </div>
+        </section>
+
+         <!-- Our Facilities -->
+         <section class="w-10/12 mx-auto text-center">
+            <div class="mb-8">
+                <h1 class="text-4xl">Our Facilities</h1>
+                <p class="opacity-50 font-extralight ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                    excepturi!</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-left pb-20">
+                <div class="shadow-sm shadow-gray-800">
+                    <img class="rounded-t mb-4 w-full" src="../../images/library.png" alt="">
+                    <div class="px-2">
+                        <h1 class="text-lg font-medium">World Class Library</h1>
+                        <p class="font-extralight opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Culpa voluptate, nesciunt.</p>
+                    </div>
+                </div>
+                <div class="shadow-sm shadow-gray-800">
+                    <img class="rounded-t mb-4 w-full" src="../../images/basketball.png" alt="">
+                    <div class="px-2">
+                        <h1 class="text-lg font-medium">Largest Play Ground</h1>
+                        <p class="font-extralight opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Culpa voluptate, nesciunt.</p>
+                    </div>
+                </div>
+                <div class="shadow-sm shadow-gray-800">
+                    <img class="rounded-t mb-4 w-full" src="../../images/cafeteria.png" alt="">
+                    <div class="px-2">
+                        <h1 class="text-lg font-medium">Teasty And Healthy Food</h1>
+                        <p class="font-extralight opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Culpa voluptate, nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section>
+            <hr
+                class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
+            <footer class="w-full mx-auto text-center">
+                <h1 class="text-xl">About Us</h1>
+                <p class="opacity-50 font-extralight ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                    excepturi! Lorem ipsum dolor sit <br> amet consectetur adipisicing elit. Mollitia, consequuntur!</p>
+                <div class="text-2xl my-5">
+                    <a href=""><i class="fa-brands fa-facebook text-blue-600 mx-2"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter text-blue-600 mx-2"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram rounded mx-2"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin text-blue-900 mx-2"></i></a>
+                    <a href=""><i class="fa-brands fa-square-whatsapp text-green-600 mx-2"></i></a>
+                </div>
+                <small class="tracking-[2px]">&copy; All reserved right by Shakil Ahamed</small>
+            </footer>
+        </section>
+    </main>
+
+
+
+    <script src="../../varsity.js"></script>
+</body>
+
+</html>

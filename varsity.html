@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/67a2fbfa6c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link
         href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@200;300;400;500;700&family=Yatra+One&display=swap"
         rel="stylesheet">
@@ -16,7 +17,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <section>
             <nav class="p-[3%] flex justify-between items-center">
                 <h1 class="text-2xl md:text-xl lg:text-xl"><i
@@ -31,12 +32,12 @@
                         <i id="hideMenu"
                             class="fa-solid fa-xmark text-3xl absolute top-0 left-0 hidden cursor-pointer p-2 border"></i>
 
-                        <ul class="md:flex lg:flex gap-5">
-                            <li class="nav-list"><a href="">HOME</a></li>
-                            <li class="nav-list"><a href="">ABOUT</a></li>
-                            <li class="nav-list"><a href="">COURSE</a></li>
-                            <li class="nav-list"><a href="">BLOG</a></li>
-                            <li class="nav-list"><a href="">CONTACT</a></li>
+                        <ul class="md:flex lg:flex gap-5 md:text-xs lg:text-xs">
+                            <li class="nav-list"><a href="#">HOME</a></li>
+                            <li class="nav-list"><a href="/pages/about/about.html">ABOUT</a></li>
+                            <li class="nav-list"><a href="/pages/courses/courses.html">COURSES</a></li>
+                            <li class="nav-list"><a href="/pages/blog/blog.html">BLOG</a></li>
+                            <li class="nav-list"><a href="/pages/contact/contact.html">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
@@ -225,6 +226,7 @@
                 href="">CONTACT US</a>
         </section>
 
+        <!-- Footer -->
         <section>
             <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
             <footer class="w-full mx-auto text-center">
