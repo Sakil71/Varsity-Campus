@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../varsity.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/67a2fbfa6c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@200;300;400;500;700&family=Yatra+One&display=swap"
+        rel="stylesheet">
+    <title>World University</title>
+</head>
+
+<body class="bg-black">
+    <header class="about-header mb-32 min-h-[30vh] md:min-h-[50vh] lg:min-h-[50vh] bg-center bg-cover relative w-full"
+        style="background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../../images/background.jpg);">
+        <section>
+            <nav class="p-[3%] flex justify-between items-center">
+                <h1 class="text-2xl md:text-xl lg:text-xl"><i
+                        class="fa-solid fa-graduation-cap mr-3 text-3xl text-red-500"></i>World
+                    University</h1>
+
+                <div>
+                    <i id="showMenu" class="fa-solid fa-bars text-3xl font-bold lg:hidden md:hidden cursor-pointer"></i>
+
+                    <div id="menu" class="hidden font-bold md:block lg:block">
+
+                        <i id="hideMenu"
+                            class="fa-solid fa-xmark text-3xl absolute top-0 left-0 hidden cursor-pointer p-2 border"></i>
+
+                        <ul class="md:flex lg:flex gap-5 md:text-xs lg:text-xs">
+                            <li class="nav-list"><a href="../../varsity.html">HOME</a></li>
+                            <li class="nav-list"><a href="#">ABOUT</a></li>
+                            <li class="nav-list"><a href="../courses/courses.html">COURSE</a></li>
+                            <li class="nav-list"><a href="../blog/blog.html">BLOG</a></li>
+                            <li class="nav-list"><a href="../contact/contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Banner Text -->
+        </section>
+        <section class="w-10/12 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-center">
+            <h1 class="text-xl md:text-2xl lg:text-2xl font-medium">Contact Us</h1>
+        </section>
+    </header>
+    <main>
+
+        <section class="w-10/12 mx-auto mb-32">
+            <h1 class="text-2xl text-center mb-4">Our Live Location</h1>
+            <iframe class="w-full"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92108.91791857462!2d90.43736277478813!3d23.79256485171511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7715a40c603%3A0xec01cd75f33139f5!2sBRAC%20University!5e0!3m2!1sen!2sbd!4v1699122793588!5m2!1sen!2sbd"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="w-10/12 mx-auto mb-32 flex flex-col-reverse md:flex-row lg:flex-row justify-between items-center">
+            <div>
+                <div class="flex items-center mb-4">
+                    <i class="fa-solid fa-house mr-4 text-red-500 text-2xl"></i>
+                    <div>
+                        <h1 class="text-base">XYZ Road, 123 Building</h1>
+                        <small>Dhaka, Mohakhali, Bangladesh</small>
+                    </div>
+                </div>
+
+                <div class="flex items-center mb-4">
+                    <i class="fa-solid fa-phone mr-4 text-red-500 text-2xl"></i>
+                    <div>
+                        <h1 class="text-base">+880 1234567890</h1>
+                        <small>Saturday to Thurst Day, 10 AM to 6 PM</small>
+                    </div>
+                </div>
+
+                <div class="flex items-center mb-4">
+                    <i class="fa-solid fa-envelope mr-4 text-red-500 text-2xl"></i>
+                    <div>
+                        <h1 class="text-base">bangladeshuniversity@gmail.com</h1>
+                        <small>Email us your query</small>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/2 mb-20">
+                <form class="flex flex-col text-black" action="">
+                    <input class="mb-5 px-4 py-2 rounded" type="text" placeholder="Enter Your Name" name="" id="">
+                    <input class="mb-5 px-4 py-2 rounded" type="text" placeholder="Enter Your Email Address" name=""
+                        id="">
+                    <input class="mb-5 px-4 py-2 rounded" type="text" placeholder="Enter Your Subject" name=""
+                        id="">
+                    <textarea class="mb-5 px-4 py-2 rounded" name="" id="" rows="5"
+                        placeholder="Enter Your Message"></textarea>
+                    <button
+                        class="border px-14 md:px-20 lg:px-20 py-2 rounded bg-transparent text-sm relative hover:bg-[#f44336] transition duration-0 hover:duration-1000 text-white">SUBMIT
+                        NOW</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section>
+            <hr
+                class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
+            <footer class="w-full mx-auto text-center">
+                <h1 class="text-xl">About Us</h1>
+                <p class="opacity-50 font-extralight ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                    excepturi! Lorem ipsum dolor sit <br> amet consectetur adipisicing elit. Mollitia, consequuntur!</p>
+                <div class="text-2xl my-5">
+                    <a href=""><i class="fa-brands fa-facebook text-blue-600 mx-2"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter text-blue-600 mx-2"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram rounded mx-2"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin text-blue-900 mx-2"></i></a>
+                    <a href=""><i class="fa-brands fa-square-whatsapp text-green-600 mx-2"></i></a>
+                </div>
+                <small class="tracking-[2px]">&copy; All reserved right by Shakil Ahamed</small>
+            </footer>
+        </section>
+    </main>
+
+
+
+    <script src="../../varsity.js"></script>
+</body>
+
+</html>
